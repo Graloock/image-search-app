@@ -1,7 +1,12 @@
-import showPhotos from './js/components/photos/showPhotos';
+import showPosts from "./js/components/posts/showPosts";
 
-document.addEventListener('submit', async e => {
-  const searchInput = document.querySelector('input');
+document.addEventListener("submit", async (e) => {
   e.preventDefault();
-  await showPhotos(searchInput.value);
+  const searchInput = document.querySelector("input");
+  const catGallery = document.querySelector(".cat-gallery");
+
+  if (searchInput.value === "") return;
+
+  catGallery.innerHTML = "";
+  await showPosts(searchInput.value);
 });
