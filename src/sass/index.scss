@@ -1,15 +1,13 @@
 @import './common';
 
-body {
-  display: flex;
-  flex-direction: column;
-}
+
 
 main {
   flex-grow: 1;
 }
 
 .header {
+  top: 0;
   width: 100%;
   height: 62px;
   position: fixed;
@@ -56,6 +54,5 @@ main {
 }
 
 .cat-gallery {
-  margin: 12px;
-  height: 100%;
+  margin: 74px 12px 12px 12px;
 }
