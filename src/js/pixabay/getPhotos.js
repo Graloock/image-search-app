@@ -1,6 +1,6 @@
 import axios from "axios";
 
-const PIXABAY_API_KEY = "PIXABAY_API_KEY"; //Type yours here
+const PIXABAY_API_KEY = "51120902-a65183a354a0a598ac7ecdfd6"; //Type yours here
 const IMAGE_TYPE = "photo";
 const ORIENTATION = "horizontal";
 const SAVE_SEARCH = true;
