@@ -1,0 +1,31 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Page title</title>
+  <link rel="stylesheet" href="./sass/index.scss" />
+  <script type="module" src="./index.js"></script>
+  <script src="../node_modules/notiflix/dist/notiflix-aio-3.2.8.min.js"></script>
+</head>
+<body>
+<header class="header">
+  <form class="search-form" id="search-form">
+    <input
+      type="text"
+      name="searchQuery"
+      autocomplete="off"
+      placeholder="Search images..."
+    />
+    <button type="submit"></button>
+  </form>
+</header>
+<main class="main">
+  <div class="cat-gallery">
+    <article class="cat-post">
+      To start search, type something on search field above.
+    </article>
+  </div>
+</main>
+</body>
+</html>

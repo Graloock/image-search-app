@@ -1,0 +1,41 @@
+{
+  "name": "image-search-app",
+  "version": "2.0.0",
+  "description": "",
+  "homepage": "https://graloock.github.io/image-search-app",
+  "scripts": {
+    "start": "parcel src/*.html",
+    "build": "parcel build src/*.html --public-url /image-search-app/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/graloock/image-search-app.git"
+  },
+  "keywords": [],
+  "author": "Vadym Terekovskyi <vadihka200192@gmail.com>",
+  "license": "BSD-2-Clause",
+  "bugs": {
+    "url": "https://github.com/graloock/image-search-app/issues"
+  },
+  "dependencies": {
+    "axios": "^1.10.0",
+    "lodash": "^4.17.21",
+    "modern-normalize": "^1.1.0",
+    "notiflix": "^3.2.8",
+    "prettier": "^3.6.2",
+    "simplelightbox": "^2.14.3"
+  },
+  "devDependencies": {
+    "@eslint/js": "^9.31.0",
+    "@parcel/transformer-sass": "^2.6.0",
+    "buffer": "^6.0.3",
+    "eslint": "^9.31.0",
+    "globals": "^16.3.0",
+    "parcel": "^2.6.0",
+    "parcel-reporter-clean-dist": "^1.0.4",
+    "parcel-transformer-hbs": "^1.0.4",
+    "posthtml-include": "^1.7.4",
+    "process": "^0.11.10"
+  },
+  "browserslist": "> 0.5%, last 2 versions, not dead"
+}
